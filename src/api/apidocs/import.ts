@@ -20,7 +20,7 @@ export default async function importFlow(options: ImportCommandOptions) {
     else {
         formData.append("url", options.path);
     }
-    formData.append("projectVersionId", options.versionId);
+    formData.append("projectVersionIdss", options.versionId);
     formData.append("sourceType", ApiReferenceSourceType.CommandLine);
     formData.append("operationType", ApiReferenceOperationType.Import);
     formData.append("proceedAnyway", "true");
