@@ -18,7 +18,7 @@ export default async function resyncFlow(options: ResyncCommandOptions) {
     else {
         formData.append("url", options.path);
     }
-    formData.append("projectVersionIdss", options.versionId);
+    formData.append("projectVersionIdsss", options.versionId);
     formData.append("sourceType", ApiReferenceSourceType.CommandLine);
     formData.append("operationType", ApiReferenceOperationType.Resync);
     formData.append("proceedAnyway", "true");
